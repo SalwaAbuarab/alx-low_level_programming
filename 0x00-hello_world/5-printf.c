@@ -5,7 +5,7 @@
  *
  * Describtion : This is a C program that prints with printf function
  *
- * return : always 0 (success)
+ * Return: always 0 (success)
 */
 
 int main(void)
