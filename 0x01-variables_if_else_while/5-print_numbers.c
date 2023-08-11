@@ -10,11 +10,12 @@
 
 int main(void)
 {
-	int num;
+	int digit = 0;
 
-	for (num = 0 ; num < 10 ; num++)
+	if (digit <= 9)
 	{
-		printf("%d", nunm);
+		printf("%i", digit);
+		digit++;
 	}
 	printf('\n');
 
