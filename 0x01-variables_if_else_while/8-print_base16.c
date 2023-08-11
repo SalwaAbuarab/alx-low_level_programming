@@ -12,7 +12,7 @@ int main(void)
 {
         int digit = 48; /*48: decimel rep of 0*/
 
-        while (digit <= 120) /*102: decimel of rep f*/
+        while (digit <= 102) /*102: decimel of rep f*/
         {
                 putchar(digit);
 
