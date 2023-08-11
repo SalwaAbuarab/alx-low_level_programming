@@ -14,7 +14,7 @@ int main(void)
 
 	for (num = 0 ; num < 10 ; num++)
 	{
-		printf("d", nunm);
+		printf("%d", nunm);
 	}
 	printf('\n');
 
