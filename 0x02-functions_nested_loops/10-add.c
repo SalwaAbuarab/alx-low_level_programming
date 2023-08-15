@@ -3,14 +3,15 @@
 /**
  * add - function that adds two integers
  *
- * @int: te type of the input is integer
+ * @a: takes integer type input for function
+ *
+ * @b: takes integer type input for function
  *
  * Return: (sum)
 */
 
-int add(int, int)
+int add(int a, int b)
 {
-	int a, b;
 	int sum;
 
 	sum = a + b;
