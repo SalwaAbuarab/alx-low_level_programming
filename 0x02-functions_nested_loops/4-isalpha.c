@@ -5,7 +5,7 @@
  *
  * @c: chech input of funtion
  *
- * return: return 1 if condtion is true otherwise return 0 alwayes (success)
+ * Return: return 1 if condtion is true otherwise return 0 alwayes (success)
 */
 
 int _isalpha(int c)
