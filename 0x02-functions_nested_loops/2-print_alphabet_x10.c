@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 
 /**
  * print_alphabet_x10 - function print alphabet x10 to prints 10 times
@@ -15,6 +15,6 @@ void print_alphabet_x10(void)
 		{
 			putchar(alphabet);
 		}
-		putchar('\n')
+		putchar('\n');
 	}
 }
