@@ -6,6 +6,7 @@
  * @s: a pointer to string to point
  *
  * Return: noting
+ * i
 */
 
 void rev_string(char *s)
