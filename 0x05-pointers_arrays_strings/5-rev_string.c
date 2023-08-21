@@ -5,22 +5,23 @@
  *
  * @s: a pointer to string to point
  *
- * Return: noting
- * i
+ * Return: nothing
 */
 
 void rev_string(char *s)
 {
-	int i, l;
+	int start, end;
 	int temp;
 
-	for (l = 0; s[l] != '\0'; i++)
-		;
+	/*start = start + 1;*/
+	/*end = end - 1;*/
 
-	for (i = 0; i < l / 2; i++)
+	while (start < end)
 	{
-		temp = s[i];
-		s[i] = s[l - 1 - i];
-		s[l - 1 - i] = temp;
+		temp = s[start];
+		s[start] = s[end];
+		s[end] = temp;
+		start++;
+		end--;
 	}
 }
