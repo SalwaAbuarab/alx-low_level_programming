@@ -10,11 +10,10 @@
 
 void rev_string(char *s)
 {
-	int start, end;
+	int start = 0; 
+	int end = 0;
 	int temp;
 
-	/*start = start + 1;*/
-	/*end = end - 1;*/
 	while (start < end)
 	{
 		temp = s[start];
