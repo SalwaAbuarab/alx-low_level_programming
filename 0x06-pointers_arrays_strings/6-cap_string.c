@@ -32,7 +32,7 @@ int isDelimiter(char c)
 		if (c == delimiter[i])
 			return (1);
 	return (0);
-
+}
 
 
 /**
@@ -40,19 +40,19 @@ int isDelimiter(char c)
  *
  * @s: a return string
  *
- * Return: str string
+ * Return: s string
 */
 
 char *cap_string(char *s)
 {
 	char *ptr  = s;
-	char foundDelimite = 1;
+	char foundDelimit = 1;
 
 	while (*s)
 	{
 		if (isDelimiter(*s))
 			foundDelimit = 1;
-		else if (islower(*s) && foudDelimit)
+		else if (islower(*s) && foundDelimit)
 		{
 			*s -= 32;
 			foundDelimit = 0;
