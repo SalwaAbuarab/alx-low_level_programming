@@ -5,7 +5,7 @@
  * main - adds positive numbers
  *
  * @argc:argument counter
- * @argv: argument ventor 
+ * @argv: argument ventor
  *
  * Return: 1 if ERROR such as symbols that are not numbers,
  * 0 if nothing is passed
