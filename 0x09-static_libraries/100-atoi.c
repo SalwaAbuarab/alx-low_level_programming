@@ -1,1 +1,8 @@
-int _atoi(char *s);
+/**
+ * _atoi - functinn name
+ * @s: string
+ * Return: 0
+*/
+int _atoi(char *s)
+{
+}
