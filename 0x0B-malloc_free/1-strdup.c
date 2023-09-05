@@ -18,7 +18,12 @@ char *_strdup(char *str)
 	char *ptr;
 	unsigned int i;
 
-	while (!(ptr =  (char *)malloc(sizeof(char) * strlen(str) + 1)) || str == NULL)
+	while (!(ptr = malloc(sizeof(char) * strlen(str) + 1)) || str == NULL)
+		return (NULL);
+
+	ptr = malloc(sizeof(char) * strlen(str) + 1);
+
+	if (ptr == 0)
 		return (NULL);
 
 	for (i = 0; i < strlen(str); i++)
