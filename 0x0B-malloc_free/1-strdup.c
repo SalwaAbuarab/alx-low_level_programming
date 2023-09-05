@@ -21,8 +21,8 @@ char *_strdup(char *str)
 	while (!(ptr =  (char *)malloc(sizeof(char) * strlen(str) + 1)) || str == NULL)
 		return (NULL);
 
-	while (*str)
-		ptr[i]++ = *str++;
+	for (i = 0; i < strlen(str); i++)
+		str[i] = ptr[i];
 	return (ptr);
 
 }
