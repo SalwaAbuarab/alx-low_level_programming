@@ -24,7 +24,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 
-	if (n >= s2_length)
+	if (n > s2_length)
 		n = s2_length;
 
 	size = s1_length + n + 1;
