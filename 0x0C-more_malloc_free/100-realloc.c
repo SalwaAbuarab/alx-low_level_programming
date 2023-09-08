@@ -21,16 +21,21 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		return (ptr);
 
 	if (ptr == NULL)
+	{
 		ar = malloc(new_size);
-
-	if (ar == NULL)
-		return (NULL);
+		return (ar);
+	}
 
 	if (ptr != NULL && new_size == 0)
 	{
 		free(ptr);
 		return (NULL);
 	}
+
+	ar = malloc(new_size);
+
+	if (ar == NULL)
+		return (NULL);
 
 	for (i = 0; i < old_size; i++)
 		ar[i] = older[i];
