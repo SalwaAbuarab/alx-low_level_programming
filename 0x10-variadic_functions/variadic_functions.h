@@ -4,16 +4,16 @@
 #include <stdio.h>
 
 /**
- * struct token - struct token
+ * struct check - struct token
  *
- * @token: format token
+ * @check: format token
  * @f: the function associated
 */
-typedef struct token
+typedef struct check
 {
-	char *token;
+	char *check;
 	void (*f)(char *, va_list);
-} token_t;
+} check_t;
 
 
 int _putchar(char c);
